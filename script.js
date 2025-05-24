@@ -12,7 +12,7 @@ function animate(){
     ctx.clearRect(0, 0, CANVAS_WIDTH, CANVAS_HEIGHT);
     //ctx.fillRect(100,50,100,100);
     //ctx.drawImage(image, sx, sy, sw, sh, dx, dy, dw, dh);
-    ctx.drawImage(playerImage, 0, 0, spriteWidth, spriteHeight, 0, 0, CANVAS_WIDTH, CANVAS_HEIGHT);
+    ctx.drawImage(playerImage, 0 * spriteWidth, 2 * spriteHeight, spriteWidth, spriteHeight, 0, 0, spriteWidth, spriteHeight);
     requestAnimationFrame(animate);
 };
 animate();
