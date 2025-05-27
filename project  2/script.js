@@ -18,7 +18,9 @@ backgroundLayer5.src = 'layer-5.png';
 let x = 0;
 
 function animate(){
+    ctx.clearRect(0, 0, CANVAS_WIDTH, CANVAS_HEIGHT);
     ctx.drawImage(backgroundLayer4, x, 0);
+    x--;
     requestAnimationFrame(animate);
 };
 animate();
