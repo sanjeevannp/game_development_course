@@ -15,8 +15,10 @@ backgroundLayer4.src = 'layer-4.png';
 const backgroundLayer5 = new Image();
 backgroundLayer5.src = 'layer-5.png';
 
+let x = 0;
+
 function animate(){
-    ctx.drawImage(backgroundLayer1, x, 0);
+    ctx.drawImage(backgroundLayer4, x, 0);
     requestAnimationFrame(animate);
 };
 animate();
