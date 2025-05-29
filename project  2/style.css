@@ -1,6 +1,7 @@
 body {
     background: black;
 }
+
 #container {
     position: absolute;
     width: 800px;
@@ -9,14 +10,17 @@ body {
     left: 50%;
     font-size: 25px;
 }
+
 #canvas1 {
     position: relative;
     width: 800px;
     height: 700px;
 }
+
 #slider {
     width: 100%;
 }
+
 p {
     color: white;
 }
